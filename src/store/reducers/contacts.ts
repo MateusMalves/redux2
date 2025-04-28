@@ -49,9 +49,46 @@ const initialState: ContatosState = {
       telefone: '11-99999-9999',
       email: 'ricardo@gmail.com',
       id: 6
+    },
+    // Novos contatos
+    {
+      grupos: enums.Grupos.WORK,
+      titulo: 'Carlos',
+      telefone: '11-98877-6655',
+      email: 'carlos.work@gmail.com',
+      id: 7
+    },
+    {
+      grupos: enums.Grupos.FAMILY,
+      titulo: 'Ana',
+      telefone: '11-98888-7777',
+      email: 'ana.fam@gmail.com',
+      id: 8
+    },
+    {
+      grupos: enums.Grupos.GUYS,
+      titulo: 'Lucas',
+      telefone: '11-97777-5555',
+      email: 'lucas.guy@gmail.com',
+      id: 9
+    },
+    {
+      grupos: enums.Grupos.FAMILY,
+      titulo: 'Mariana',
+      telefone: '11-96666-4444',
+      email: 'mariana@gmail.com',
+      id: 10
+    },
+    {
+      grupos: enums.Grupos.WORK,
+      titulo: 'Beatriz',
+      telefone: '11-95555-3333',
+      email: 'beatriz.work@gmail.com',
+      id: 11
     }
   ]
 }
+
 
 const contactsSlice = createSlice({
   name: 'contacts',
